@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Recipe_MakeEffigySmall.label>小ぶりのエフィジー を作る</Recipe_MakeEffigySmall.label>
+  <Recipe_MakeEffigySmall.description>人の遺体から小ぶりのエフィジーを制作します</Recipe_MakeEffigySmall.description>
+  <Recipe_MakeEffigySmall.jobString>小ぶりのエフィジーを作っています</Recipe_MakeEffigySmall.jobString>
+  <Recipe_MakeEffigyLarge.label>大ぶりのエフィジー を作る</Recipe_MakeEffigyLarge.label>
+  <Recipe_MakeEffigyLarge.description>人の遺体から大ぶりのエフィジーを制作します</Recipe_MakeEffigyLarge.description>
+  <Recipe_MakeEffigyLarge.jobString>大ぶりのエフィジーを作っています</Recipe_MakeEffigyLarge.jobString>
+  <Recipe_MakeEffigyGrand.label>巨大なのエフィジー を作る</Recipe_MakeEffigyGrand.label>
+  <Recipe_MakeEffigyGrand.description>人の遺体から巨大なエフィジーを制作します</Recipe_MakeEffigyGrand.description>
+  <Recipe_MakeEffigyGrand.jobString>巨大なのエフィジーを作っています</Recipe_MakeEffigyGrand.jobString>
+</LanguageData>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="Recipe_MakeEffigyBase" Abstract="True">
+    <workSkill>Artistic</workSkill>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <!-- <workerClass>EffigyMod.Recipe_MakeEffigy</workerClass> -->
+    <!-- in current version, not working -->
+    <effectWorking>ButcherFlesh</effectWorking>
+    <requiredGiverWorkType>Art</requiredGiverWorkType>
+    <recipeUsers>
+      <li>TableSculpting</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="Recipe_MakeEffigyBase">
+    <defName>Recipe_MakeEffigySmall</defName>
+    <label>make small effigy</label>
+    <description>Make a small effigy from corpse of humanlike.</description>
+    <jobString>Makeing a small effigy.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>CorpsesHumanlike</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesHumanlike</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <Building_EffigySmall>1</Building_EffigySmall>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="Recipe_MakeEffigyBase">
+    <defName>Recipe_MakeEffigyLarge</defName>
+    <label>make large effigy</label>
+    <description>Make a large effigy from corpse of humanlike.</description>
+    <jobString>Makeing a large effigy.</jobString>
+    <workAmount>2000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>CorpsesHumanlike</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesHumanlike</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <Building_EffigyLarge>1</Building_EffigyLarge>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="Recipe_MakeEffigyBase">
+    <defName>Recipe_MakeEffigyGrand</defName>
+    <label>make grand effigy</label>
+    <description>Make a grand effigy from corpse of humanlike.</description>
+    <jobString>Makeing a grand effigy.</jobString>
+    <workAmount>3000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>CorpsesHumanlike</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesHumanlike</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <Building_EffigyGrand>1</Building_EffigyGrand>
+    </products>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thoughts_Memory_Effigies", "Thoughts_Memory_Effigies\Thoughts_Memory_Effigies.csproj", "{068F97C6-3408-401A-9316-FB957FDF9FBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thought_MemoryObservation", "Thought_MemoryObservation\Thought_MemoryObservation.csproj", "{068F97C6-3408-401A-9316-FB957FDF9FBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{068F97C6-3408-401A-9316-FB957FDF9FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068F97C6-3408-401A-9316-FB957FDF9FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068F97C6-3408-401A-9316-FB957FDF9FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068F97C6-3408-401A-9316-FB957FDF9FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068F97C6-3408-401A-9316-FB957FDF9FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068F97C6-3408-401A-9316-FB957FDF9FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068F97C6-3408-401A-9316-FB957FDF9FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068F97C6-3408-401A-9316-FB957FDF9FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BAA18B8-75B3-407C-B7DA-4F310FE1D16A}
+	EndGlobalSection
+EndGlobal

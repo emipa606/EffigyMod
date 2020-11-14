@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <rep>
+    <path>Thought_Effigy.stages[0].label</path>
+    <trans>無残に晒された人の遺体</trans>
+  </rep>
+  <rep>
+    <path>Thought_Effigy.stages[0].description</path>
+    <trans>人の遺体が無残な姿で晒されていた。あいつらはどうかしている！</trans>
+  </rep>
+</LanguageData>

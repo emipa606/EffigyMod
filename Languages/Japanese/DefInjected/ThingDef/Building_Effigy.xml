@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Building_EffigySmall.label>小ぶりのエフィジー</Building_EffigySmall.label>
+  <Building_EffigySmall.description>人の遺体を元に制作された人型サイズの芸術作品です。見る者に恐怖を与えます。</Building_EffigySmall.description>
+  <Building_EffigyLarge.label>大ぶりのエフィジー</Building_EffigyLarge.label>
+  <Building_EffigyLarge.description>人の遺体を元に制作された車サイズの芸術作品です。見る者に恐怖を与えます。</Building_EffigyLarge.description>
+  <Building_EffigyGrand.label>巨大なエフィジー</Building_EffigyGrand.label>
+  <Building_EffigyGrand.description>人の遺体を元に制作された宇宙船サイズの芸術作品です。見る者に恐怖を与えます。</Building_EffigyGrand.description>
+</LanguageData>

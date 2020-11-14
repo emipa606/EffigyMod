@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingSetMakerDef>
+    <defName>DebugEffigies</defName>
+    <root Class="ThingSetMaker_Sum">
+      <options>
+        <li>
+          <chance>1</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>Building_EffigySmall</li>
+                  <li>Building_EffigyLarge</li>
+                  <li>Building_EffigyGrand</li>
+                </thingDefs>
+              </filter>
+              <countRange>
+                <min>32</min>
+                <max>32</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+      </options>
+    </root>
+  </ThingSetMakerDef>
+</Defs>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Effigy Mod (Continued)</name>
+  <packageId>Mlie.EffigyMod</packageId>
+  <author>tikubonn</author>
+  <url>https://github.com/emipa606/EffigyMod</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of tikubonns mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1222844735
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/EffigyMod][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+This mod adds a new building called the effigy which can be made from human corpses. It gives mood penalties to surrounding non-colonists. The task of making effigies itself does not give mental penalties as of now, but I will implement the feature as soon as possible. (Despite several attempts, I wasn't able to get it working due to technical issues.)
+
+Effigies come in three varieties:
+
+* Small Effigy
+* Large Effigy
+* Grand Effigy
+
+Along with the following sculptures recipes:
+
+* Make small effigy
+* Make large effigy
+* Make grand effigy
+
+Hope you enjoyed the mod, leave a comment, subscribe and rate! Thanks!
+
+このMODは人間の死体を材料にした芸術作品を追加します。この芸術作品を入植者以外が目にすると、精神的なペナルティを受けます。現在は技術的な問題のせいでエフィジー制作の際に「人肉を裁いた」等のペナルティが付きません。しかし、実装が可能になり次第追加する予定です。
+
+追加するアイテム
+	* 小ぶりのエフィジー
+	* 大ぶりのエフィジー
+	* 巨大なエフィジー
+
+追加する鍛造レシピ
+	* 小ぶりエフィジー を作る
+	* 大ぶりエフィジー を作る
+	* 巨大なエフィジー を作る
+
+This mod has supported RimWorld version B19! you can download old version (B18) from https://ux.getuploader.com/rimworld/download/4 if you want :D
+
+RimWorldのバージョンB19に対応しました。旧バージョン(B18)が欲しい方は https://ux.getuploader.com/rimworld/download/4 からダウンロードできます。</description>
+</ModMetaData>
