@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase" Name="Builing_EffigyBase" Abstract="true">
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <useHitPoints>true</useHitPoints>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtSculpture</nameMaker>
+        <descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+        <canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <castEdgeShadows>false</castEdgeShadows>
+    <thingCategories>
+      <li>BuildingsArt</li>
+    </thingCategories>
+    <statBases>
+      <Flammability>1.0</Flammability>
+      <SellPriceFactor>0.6</SellPriceFactor>
+    </statBases>
+    <thingClass>EffigyMod.Building_Effigy</thingClass>
+  </ThingDef>
+  <ThingDef ParentName="Builing_EffigyBase">
+    <defName>Building_EffigySmall</defName>
+    <label>small effigy</label>
+    <description>A torso-sized piece of material sculpted into an artistic form.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Building/Art/EffigySmall</texPath>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <fillPercent>0.35</fillPercent>
+    <rotatable>false</rotatable>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Mass>5</Mass>
+      <Beauty>-25</Beauty>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+  <ThingDef ParentName="Builing_EffigyBase">
+    <defName>Building_EffigyLarge</defName>
+    <label>large effigy</label>
+    <description>A person-sized piece of material sculpted into an artistic form.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Building/Art/EffigyLarge</texPath>
+      <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>10</Mass>
+      <Beauty>-50</Beauty>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+  <ThingDef ParentName="Builing_EffigyBase">
+    <defName>Building_EffigyGrand</defName>
+    <label>grand effigy</label>
+    <description>A car-sized piece of material sculpted into an artistic form.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Building/Art/EffigyGrand</texPath>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <size>(4,4)</size>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Beauty>-120</Beauty>
+      <Mass>50</Mass>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+</Defs>
